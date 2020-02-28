@@ -1,0 +1,24 @@
+.login-full-width{
+    align-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.login-header{
+    align-content: center;
+    text-align: center;
+    margin-left: 0%;
+    margin-top:  5%;
+}
+.login-button{
+    text-align: center; 
+    margin-left: -25%;
+}
+.sign-in{
+    margin-left: 85%;
+    border-radius: 23px;
+    color: white;
+    
+}
+.login-page{
+    background-color: cornflowerblue;
+}

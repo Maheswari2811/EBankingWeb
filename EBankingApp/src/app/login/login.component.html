@@ -1,0 +1,50 @@
+<mat-card class="login-page">
+   
+  <div class ="sign-in">
+    <mat-card-actions>
+        <button mat-raised-button (click)="sign()" color="primary">Click here to Sign-in</button>
+      </mat-card-actions>
+    </div>
+  <div class="login-header">
+    <mat-card-header>
+      <mat-card-title><h2>CDF iBanking</h2></mat-card-title>
+    </mat-card-header>
+  
+  </div>
+    <div fxLayout="row" fxLayoutAlign="center center" class="login-main">
+    <mat-card-content>
+      <form class="login-form">
+        <table class="login-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="user-name">
+                <label>User Name: </label>
+              <input matInput id = "User Name" placeholder="Username" [(ngModel)]="username" name="username" required>
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+          <td><mat-form-field class="password">
+              <label>  Password:  </label>
+            <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+          </mat-form-field></td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+          </tr>
+        <tr>
+      <td>
+        <div class="login-button">
+      <mat-card-actions>
+        <button mat-raised-button (click)="login()" color="primary">Login</button>
+      </mat-card-actions>
+    </div>
+    </td>
+  </tr>
+</table>
+    </form>
+    </mat-card-content>
+  </div>
+  </mat-card>
