@@ -1,1 +1,55 @@
-<p>signup works!</p>
+<mat-card class="signup">
+        <div class="signup-header">
+          <mat-card-header>
+            <mat-card-title><h2>Sign Up</h2></mat-card-title>
+          </mat-card-header>
+        
+        </div>
+          <div fxLayout="row" fxLayoutAlign="center center" class="login-main">
+          <mat-card-content>
+            <form class="signin-form">
+              <table class="signin-full-width" cellspacing="0">
+                <tr>
+                  <td>
+                    <mat-form-field class="user-names">
+                      <label>User Name: </label>
+                    <input matInput id = "User Name" placeholder="Username" [(ngModel)]="usernames" name="usernames" required>
+                    </mat-form-field>
+                  </td>
+                </tr>
+                <tr>
+                        <td>
+                          <mat-form-field class="email">
+                            <label>Email Id:     </label>
+                          <input matInput id = "E-mail" placeholder="id@mail.com" [(ngModel)]="mailid" name="email" required>
+                          </mat-form-field>
+                        </td>
+                      </tr>
+                <tr>
+                <td><mat-form-field class="password">
+                    <label>  Password:  </label>
+                  <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+                </mat-form-field></td>
+              </tr>
+              <tr>
+                    <td><mat-form-field class="password">
+                        <label> Confirm Password:  </label>
+                      <input matInput placeholder="Confirm Password" [(ngModel)]="confirmpassword" type="cnfirmpassword" name="confirmpassword" required>
+                    </mat-form-field></td>
+                  </tr>
+                  
+              <tr>
+            <td>
+              <div class="signup-button">
+            <mat-card-actions>
+              <button mat-raised-button (click)="submit()" color="primary">Submit</button>
+            </mat-card-actions>
+          </div>
+          </td>
+        </tr>
+      </table>
+          </form>
+          </mat-card-content>
+        </div>
+        </mat-card>
+      

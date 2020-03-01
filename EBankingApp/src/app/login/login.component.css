@@ -12,11 +12,17 @@
 .login-button{
     text-align: center; 
     margin-left: -25%;
+    cursor: pointer;
+    cursor: pointer;
+    font-weight: bold;
 }
 .sign-in{
     margin-left: 85%;
     border-radius: 23px;
     color: white;
+    text-align: end;
+    cursor: pointer;
+    font-weight: bold;
     
 }
 .login-page{

@@ -1,0 +1,17 @@
+.signup-header{
+    align-content: center;
+    text-align: center;
+    margin-left: 0%;
+    margin-top:  5%;
+}
+.signup-button{
+    text-align: center; 
+    margin-left: -25%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signin-full-width{
+    align-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
